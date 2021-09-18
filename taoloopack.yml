@@ -1,0 +1,8 @@
+---
+ - name: tao_loopack
+   host: all
+   task:
+    -name: set Lo0 IPv4 address
+    ios_13_interface:
+      name: Lo0
+      IPv4: 7.7.7.7/32
